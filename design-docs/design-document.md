@@ -113,4 +113,4 @@ Minor content details may evolve during implementation while preserving the over
 
 #### Developer Journey Page Final Design Mockup
 
-![Developer Journey page final design mockup](./mockups/Developer-Journey-mockup.png)
+![Developer Journey page final design mockup](./mockups/Developer-Journey-Mockup.png)
