@@ -203,7 +203,7 @@ The portfolio is deployed using GitHub Pages.
 Live site:
 
 ```text
-To be added after deployment
+https://agilan11.github.io/agilan-portfolio/
 ```
 
 ## Video Demo
