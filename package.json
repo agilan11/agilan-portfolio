@@ -1,0 +1,20 @@
+{
+  "name": "agilan-portfolio",
+  "version": "1.0.0",
+  "description": "Personal software engineering portfolio showcasing experience, projects, skills, coursework, and interests.",
+  "type": "module",
+  "scripts": {
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "author": "Agilan Balaraman",
+  "license": "MIT",
+  "devDependencies": {
+    "@eslint/js": "^9.35.0",
+    "eslint": "^9.35.0",
+    "eslint-config-prettier": "^10.1.8",
+    "globals": "^16.3.0",
+    "prettier": "^3.6.2"
+  }
+}

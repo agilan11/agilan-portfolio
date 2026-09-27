@@ -1,0 +1,298 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta
+      name="description"
+      content="Agilan Balaraman's software engineering projects, including full-stack and software engineering work."
+    />
+    <meta name="author" content="Agilan Balaraman" />
+
+    <title>Projects | Agilan Balaraman</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="icon" type="image/png" href="./images/favicon.png" />
+
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-white border-bottom">
+        <div class="container">
+          <a class="navbar-brand fw-semibold" href="./index.html">
+            Agilan Balaraman
+          </a>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#mainNavbar"
+            aria-controls="mainNavbar"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="mainNavbar">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="./index.html">Home</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link active" href="./projects.html">Projects</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="./journey.html">
+                  Developer Journey
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="projects-page-header py-5">
+        <div class="container">
+          <h1 class="display-5 fw-bold mb-2">Projects</h1>
+
+          <p class="text-secondary mb-0">
+            Full-stack software engineering projects I have built.
+          </p>
+        </div>
+      </section>
+
+      <div class="projects-list pb-5">
+        <div class="container">
+          <article class="project-detail-card mb-4">
+            <div class="row g-0">
+              <div class="col-lg-7 project-detail-content">
+                <p class="featured-label text-primary fw-semibold mb-3">
+                  FEATURED PROJECT
+                </p>
+
+                <div class="d-flex align-items-center gap-3 mb-3">
+                  <div class="project-icon">📅</div>
+
+                  <div>
+                    <h2 class="h3 fw-bold mb-1">MindEasy Therapy</h2>
+                    <p class="text-secondary small mb-0">Therapy Booking App</p>
+                  </div>
+                </div>
+
+                <p class="text-secondary mb-5">
+                  MindEasy Therapy is a full-stack MERN application that helps
+                  users discover therapy clinics, filter available services,
+                  book different types of therapy sessions, and complete
+                  payments through Stripe.
+                </p>
+
+                <div class="mb-4">
+                  <h3 class="project-subheading">PROBLEM</h3>
+
+                  <p class="text-secondary mb-0">
+                    Finding and booking therapy can involve searching across
+                    different clinics, comparing availability and services, and
+                    handling payments separately. MindEasy brings that process
+                    into one application.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 class="project-subheading">KEY FEATURES</h3>
+
+                  <ul class="text-secondary mb-0">
+                    <li>Clinic listings created by therapists</li>
+                    <li>Individual, couples, and family therapy bookings</li>
+                    <li>
+                      Filtering by location, availability, facilities, and
+                      consultation type
+                    </li>
+                    <li>Sorting by price and completed therapy sessions</li>
+                    <li>User authentication with JWT and bcrypt</li>
+                    <li>Stripe payments for appointment bookings</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="col-lg-5 project-detail-side">
+                <img
+                  class="project-preview-image mb-4"
+                  src="./images/Therapy-Booking.png"
+                  alt="Screenshot of the MindEasy Therapy booking application"
+                />
+
+                <h3 class="project-subheading">TECH STACK</h3>
+
+                <div class="d-flex flex-wrap gap-2 mb-3">
+                  <span class="project-tag">React</span>
+                  <span class="project-tag">Node.js</span>
+                  <span class="project-tag">Express</span>
+                  <span class="project-tag">MongoDB</span>
+                  <span class="project-tag">Tailwind CSS</span>
+                  <span class="project-tag">Stripe</span>
+                </div>
+
+                <div class="d-flex flex-wrap gap-2">
+                  <a
+                    class="btn btn-dark"
+                    href="https://github.com/agilan11/mern-mental-health-and-therapy-app"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    GitHub
+                  </a>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-detail-card mb-4">
+            <div class="row g-0">
+              <div class="col-lg-7 project-detail-content">
+                <p class="featured-label text-primary fw-semibold mb-3">
+                  FEATURED PROJECT
+                </p>
+
+                <div class="d-flex align-items-center gap-3 mb-3">
+                  <div class="project-icon">♡</div>
+
+                  <div>
+                    <h2 class="h3 fw-bold mb-1">
+                      Organ Transplant Management App
+                    </h2>
+                    <p class="text-secondary small mb-0">
+                      Hospital Transplant Request Management System
+                    </p>
+                  </div>
+                </div>
+
+                <p class="text-secondary mb-5">
+                  A full-stack MERN application designed to help hospitals
+                  manage organ availability and transplant requests. Hospitals
+                  can list available organs, request transplants, and track
+                  approvals through role-based dashboards.
+                </p>
+
+                <div class="mb-4">
+                  <h3 class="project-subheading">PROBLEM</h3>
+
+                  <p class="text-secondary mb-0">
+                    Organ transplant coordination involves multiple hospitals,
+                    medical records, availability data, and approval workflows.
+                    The application brings these processes into one system so
+                    hospitals and admins can manage requests more efficiently.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 class="project-subheading">KEY FEATURES</h3>
+
+                  <ul class="text-secondary mb-0">
+                    <li>Hospitals can register and request available organs</li>
+                    <li>Admins can list organs and manage availability</li>
+                    <li>Admins can review and approve transplant requests</li>
+                    <li>
+                      Role-based dashboards for hospitals and administrators
+                    </li>
+                    <li>Secure authentication using JWT and bcrypt</li>
+                    <li>RESTful APIs connecting the frontend and backend</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="col-lg-5 project-detail-side">
+                <img
+                  class="project-preview-image mb-4"
+                  src="./images/Organ-Transplant.png"
+                  alt="Screenshot of the Organ Transplant Management App"
+                />
+
+                <h3 class="project-subheading">TECH STACK</h3>
+
+                <div class="d-flex flex-wrap gap-2 mb-3">
+                  <span class="project-tag">React</span>
+                  <span class="project-tag">Node.js</span>
+                  <span class="project-tag">Express</span>
+                  <span class="project-tag">MongoDB</span>
+                  <span class="project-tag">Tailwind CSS</span>
+                  <span class="project-tag">REST API</span>
+                </div>
+
+                <a
+                  class="btn btn-dark"
+                  href="https://github.com/agilan11/organs-transplant-management-app"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  GitHub
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <section class="contact-section py-5 bg-white">
+        <div class="container text-center">
+          <h2 class="section-label text-primary fw-semibold mb-4">CONTACT</h2>
+
+          <div class="d-flex flex-wrap justify-content-center gap-3">
+            <a
+              class="contact-link"
+              href="https://github.com/agilan11"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              GitHub
+            </a>
+
+            <a
+              class="contact-link"
+              href="https://www.linkedin.com/in/agilan-balaraman-18b20423a"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              LinkedIn
+            </a>
+
+            <a
+              class="contact-link"
+              href="https://bsky.app/profile/agilan11.bsky.social"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              BlueSky
+            </a>
+
+            <a class="contact-link" href="mailto:agilanbala@gmail.com">
+              Email
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer py-4">
+      <div class="container text-center">
+        <p class="mb-0">Agilan Balaraman</p>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script type="module" src="./js/main.js"></script>
+  </body>
+</html>
