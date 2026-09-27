@@ -211,7 +211,7 @@ https://agilan11.github.io/agilan-portfolio/
 Public narrated demonstration:
 
 ```text
-[Watch the narrated portfolio demo](https://youtu.be/1MbsoSLl5mk?si=v2ZdiWufFgi67v_Y)
+https://youtu.be/1MbsoSLl5mk?si=v2ZdiWufFgi67v_Y
 ```
 
 ## License
