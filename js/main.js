@@ -1,5 +1,5 @@
 const animatedElements = document.querySelectorAll(
-  ".journey-card, .xometry-spotlight, .looking-ahead-card",
+  ".journey-card, .xometry-spotlight, .looking-ahead-card"
 );
 
 const observer = new IntersectionObserver(
@@ -13,7 +13,7 @@ const observer = new IntersectionObserver(
   },
   {
     threshold: 0.15,
-  },
+  }
 );
 
 animatedElements.forEach((element) => {
